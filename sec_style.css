@@ -91,7 +91,11 @@
     width: 411px;
     height: 563px;
     left: 0px;
+<<<<<<< HEAD
     top: 1240px;
+=======
+    top: 1040px;
+>>>>>>> 62d3b28e421153c3b9255a7aceae7df066779605
     background: #141615;
   }
 
@@ -191,6 +195,7 @@
     position: absolute;
     left: 317px;
     top: 1509px;
+<<<<<<< HEAD
   }
 .uplabel {
   margin-left:100px;
@@ -202,3 +207,6 @@
   margin-left:100px;
   top: 30px;
 }
+=======
+  }
+>>>>>>> 62d3b28e421153c3b9255a7aceae7df066779605
