@@ -1,0 +1,163 @@
+.nav {
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+
+  .nav__list {
+    margin-left:auto;
+  }
+  
+ @media only screen and (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+    }
+ }
+
+ .fact {
+    position: absolute;
+    width: 77px;
+    height: 42px;
+    left: 167px;
+    top: 94px;
+    font-family: 'Poppins',;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    /* identical to box height */
+    color: #0F0F0F;
+ }
+
+ /*body { 
+  background: url(left_branches.png) repeat;
+  min-height: 100%;
+}*/
+
+ .branch {
+    height:800px;
+  }
+
+  .ft {
+    position: absolute;
+    width: 319px;
+    height: 504px;
+    left: 91px;
+    top: 175px;
+
+    font-family: 'Poppins',;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #1E1E1E;
+  }
+
+  .rectbl {
+    position: absolute;
+    width: 411px;
+    height: 563px;
+    left: 0px;
+    top: 940px;
+    background: #141615;
+  }
+
+  .reach {
+    position: absolute;
+    width: 94px;
+    height: 27px;
+    left: 158px;
+    top: 1000px;
+    font-family: 'Poppins',;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+
+  .lin {
+    position: absolute;
+    left: 78px;
+    top: 1070px;
+  }
+
+  .insta {
+    position: absolute;
+    left: 148px;
+    top: 1070px;
+  }
+
+  .insta2 {
+    position: absolute;
+    left: 157px;
+    top: 1078px;
+  }
+
+  .twit {
+    position: absolute;
+    left: 218px;
+    top: 1070px;
+  }
+
+  .github {
+    position: absolute;
+    left: 288px;
+    top: 1070px;
+  }
+
+  .mail {
+    position: absolute;
+    left: 85px;
+    top: 1218px;
+    font-family: 'Poppins',;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .call {
+    position: absolute;
+    left: 109px;
+    top: 1178px;
+    font-family: 'Poppins',;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .whiterect {
+    position: absolute;
+    left: 49px;
+    top: 1300px;
+    border: 1.37778px solid #E7E7E7;
+    border-radius: 6.88889px;
+  }
+
+  .feed {
+    position: absolute;
+    left: 60px;
+    top: 1280px;
+  }
+
+  .mailbox{
+    position: absolute;
+    left: 60px;
+    top: 1330px;
+  }
+
+  .feedbox{
+    position: absolute;
+    left: 60px;
+    top: 1370px;
+  }
+
+  .send{
+    position: absolute;
+    left: 317px;
+    top: 1409px;
+  }

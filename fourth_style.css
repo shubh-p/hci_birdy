@@ -1,0 +1,201 @@
+.nav {
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+
+  .nav__list {
+    margin-left:auto;
+  }
+  
+ @media only screen and (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+    }
+ }
+
+ .update {
+    position: absolute;
+    width: 77px;
+    height: 42px;
+    left: 167px;
+    top: 94px;
+    font-family: 'Poppins',;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 32px;
+    color: #0F0F0F;
+ }
+
+ .branch {
+  height:800px;
+}
+
+.V2 {
+  position: absolute;
+  width: 61px;
+  height: 42px;
+  left: 41px;
+  top: 183px;
+
+  font-family: 'Poppins',;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+  color: #1E1E1E;
+}
+
+.v2txt {
+  position: absolute;
+  width: 319px;
+  height: 432px;
+  left: 41px;
+  top: 245px;
+
+  font-family: 'Poppins',;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #1E1E1E;
+}
+
+.V1 {
+  position: absolute;
+  width: 54px;
+  height: 42px;
+  left: 41px;
+  top: 753px;
+  font-family: 'Poppins',;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: #1E1E1E;
+
+}
+
+.v1txt {
+  position: absolute;
+  width: 319px;
+  height: 432px;
+  left: 41px;
+  top: 815px;
+  font-family: 'Poppins',;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1E1E1E;
+}
+
+.rectbl {
+  position: absolute;
+  width: 411px;
+  height: 563px;
+  left: 0px;
+  top: 1340px;
+  background: #141615;
+}
+
+.reach {
+  position: absolute;
+  width: 94px;
+  height: 27px;
+  left: 158px;
+  top: 1400px;
+  font-family: 'Poppins',;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.lin {
+  position: absolute;
+  left: 78px;
+  top: 1470px;
+}
+
+.insta {
+  position: absolute;
+  left: 148px;
+  top: 1470px;
+}
+
+.insta2 {
+  position: absolute;
+  left: 157px;
+  top: 1478px;
+}
+
+.twit {
+  position: absolute;
+  left: 218px;
+  top: 1470px;
+}
+
+.github {
+  position: absolute;
+  left: 288px;
+  top: 1470px;
+}
+
+.mail {
+  position: absolute;
+  left: 85px;
+  top: 1618px;
+  font-family: 'Poppins',;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.call {
+  position: absolute;
+  left: 109px;
+  top: 1578px;
+  font-family: 'Poppins',;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.whiterect {
+  position: absolute;
+  left: 49px;
+  top: 1700px;
+  border: 1.37778px solid #E7E7E7;
+  border-radius: 6.88889px;
+}
+
+.feed {
+  position: absolute;
+  left: 60px;
+  top: 1680px;
+}
+
+.mailbox{
+  position: absolute;
+  left: 60px;
+  top: 1730px;
+}
+
+.feedbox{
+  position: absolute;
+  left: 60px;
+  top: 1770px;
+}
+
+.send{
+  position: absolute;
+  left: 317px;
+  top: 1809px;
+}
