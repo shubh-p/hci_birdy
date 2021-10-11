@@ -1,0 +1,256 @@
+.nav {
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+
+  .nav__list {
+    margin-left:auto;
+  }
+  
+ @media only screen and (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+    }
+    
+  /*.nav__list {
+      display:none;
+    }*/
+      
+  /*.toggle_link {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } */
+  } 
+
+  .main__title1 {
+    /* Birdy */
+      position: absolute;
+      width: 244px;
+      height: 150px;
+      left: 84px;
+      top: 513px;
+
+      font-family: 'Ruthie',cursive;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 120px;
+      line-height: 150px;
+      /* identical to box height */
+      color: #141615;
+  }
+
+  .main__intro {
+    /* Tagline Lorem Ipsum! */
+      position: absolute;
+      width: 200px;
+      height: 27px;
+      left: 106px;
+      top: 670px;
+
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight:500;
+      font-size: 18px;
+      line-height: 27px;
+      /* identical to box height */
+      color: #141515;
+  }
+
+  .main__title2 {
+    /* How to Use? */
+    position: absolute;
+    width: 271px;
+    height: 80px;
+    left: 70px;
+    top: 890px;
+
+    font-family: 'Ruthie', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 80px;
+    /* identical to box height */
+    color: #0F0F0F;
+  }
+
+  .intro {
+    /* Group 28 */
+    position: absolute;
+    width: 314px;
+    height: 444px;
+    left: 59px;
+    top: 1033px;
+  }
+
+  .continue {
+    /* Group 4 */
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 42px;
+    left: 120px;
+    top: 1533px;
+    border-radius: 8px;
+    line-height: 42px;
+    box-sizing: border-box;
+    padding:0 24px;
+  }
+
+  .branch {
+    width:900px;
+    height:500px;
+  }
+
+  .red_bird {
+    position: absolute;
+    width: 280.58px;
+    height: 415.87px;
+    left: 61.06px;
+    top: 112.13px;
+  }
+
+  .rect {
+    position: absolute;
+    width: 216.97px;
+    height: 306.86px;
+    left: 88.66px;
+    top: 112.13px;
+    box-sizing: border-box;
+  }
+
+  .small_rect {
+    position: absolute;
+    width: 97px;
+    height: 24px;
+    left: 205px;
+    top: 116px;
+    background: #9A0007;
+  }
+
+  .identify {
+    position: absolute;
+    width: 83px;
+    height: 21px;
+    left: 216px;
+    top: 116px;
+
+    font-family: 'Poppins', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+  }
+
+  .rectbl {
+    position: absolute;
+    width: 411px;
+    height: 563px;
+    left: 0px;
+    top: 1640px;
+    background: #141615;
+  }
+
+  .reach {
+    position: absolute;
+    width: 94px;
+    height: 27px;
+    left: 158px;
+    top: 1700px;
+    font-family: 'Poppins',;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+
+  .lin {
+    position: absolute;
+    left: 78px;
+    top: 1770px;
+  }
+
+  .insta {
+    position: absolute;
+    left: 148px;
+    top: 1770px;
+  }
+
+  .insta2 {
+    position: absolute;
+    left: 157px;
+    top: 1778px;
+  }
+
+  .twit {
+    position: absolute;
+    left: 218px;
+    top: 1770px;
+  }
+
+  .github {
+    position: absolute;
+    left: 288px;
+    top: 1770px;
+  }
+
+  .mail {
+    position: absolute;
+    left: 85px;
+    top: 1918px;
+    font-family: 'Poppins',;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .call {
+    position: absolute;
+    left: 109px;
+    top: 1878px;
+    font-family: 'Poppins',;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .whiterect {
+    position: absolute;
+    left: 49px;
+    top: 2000px;
+    border: 1.37778px solid #E7E7E7;
+    border-radius: 6.88889px;
+  }
+
+  .feed {
+    position: absolute;
+    left: 60px;
+    top: 1980px;
+  }
+
+  .mailbox{
+    position: absolute;
+    left: 60px;
+    top: 2030px;
+  }
+
+  .feedbox{
+    position: absolute;
+    left: 60px;
+    top: 2070px;
+  }
+
+  .send{
+    position: absolute;
+    left: 317px;
+    top: 2109px;
+  }
