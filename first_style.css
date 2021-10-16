@@ -3,7 +3,7 @@
     top: 0;
     display: flex;
     width: 100%;
-    height: 45px;
+    height: 60px;
     background-color: #FFFFFF;
     padding: 16px;
     flex-wrap: wrap;
@@ -15,13 +15,13 @@
     margin-left:auto;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 15px;
+    padding-right: 30px;
   }
-  .nav__list li {
+  .nav__list-item {
    list-style: none;
    line-height: 60px;
   }
-  .nav__list li a {
+  .nav_link {
     display:block;
     height: 100%;
     padding: 0 10px;
@@ -29,24 +29,23 @@
     text-decoration: none;
     color:#111;
     font-family: arial;
-    font size:16px;
+    font-size: 16px;
   }
  @media only screen and (max-width: 768px) {
     .nav {
       flex-direction: column;
     }
     
-  /*.nav__list {
-      display:none;
-    }*/
+  
       
-  .btn-toggle-nav {
+   .btn-toggle-nav {
      align-self: flex-end;
       display: initial;
-      right: 0;
+      left: 0;
+      top: 0;
       position: absolute;
       width: 50px;
-      height: 60%;
+      height: 80%;
       background-color: #ff7f50 ;
       background-image: url("menu_icon.png") ;
       background-repeat: no-repeat; 
@@ -60,7 +59,7 @@
       } 
       .nav-sidebar {
         position: fixed;
-        right: 0;
+        left: 0;
         bottom: 0;
         width: 50px;
         height: calc(100vh - 60px);
@@ -70,30 +69,41 @@
 
       }
       .nav-sidebar ul {
-      padding-top: 100px;
+      padding-top: 15px;
+      padding-left: 0;
+      font-size: 13px;
       overflow: hidden;
-      visibility: hidden;
+      visibility :hidden;
 
 
       }
       .nav-sidebar ul li {
       line-height: 60px;
+      
       list-style: none;
 
       }
       .nav-sidebar ul li span, .nav-sidebar ul li a {
      display: block;
+     
      height: 60px;
-     padding: 0 10px;
+    
+     /*padding: 0 10px;*/
      text-decoration: none;
      text-transform: uppercase;
-     color: #FFF;
+     color: #FFFF00;
      font-family: arial;
-     font size: 16px;
+     font-size: 10px;
      white-space: nowrap;
+     opacity: 0;
 
 
       }
+      .nav-sidebar ul li a:hover {
+       background-color: #222;
+   
+   
+         }
      
 
   } 
