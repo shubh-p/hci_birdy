@@ -24,11 +24,11 @@
       width: 60px;
       height: 100%;
       background-color: #F98F39;
-      cursor: pointer;
-      background-image: url("C:\Users\shubh\OneDrive\Documents\GitHub\hci_birdy/menu_icon.png") ;
+      background-image: url("menu_icon.png") ;
       background-repeat: no-repeat; 
       background-size: 100%;
       background-position: center;
+      cursor: pointer;
      } 
   } 
 
