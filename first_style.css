@@ -17,12 +17,19 @@
       display:none;
     }*/
       
-  /*.toggle_link {
-      align-self: flex-end;
+  .btn-toggle-nav {
+     /* align-self: flex-end;
       display: initial;
-      position: absolute;
+      position: absolute;*/
+      width: 60px;
+      height: 100%;
+      background-color: #F98F39;
       cursor: pointer;
-     } */
+      background-image: url("C:\Users\shubh\OneDrive\Documents\GitHub\hci_birdy/menu_icon.png") ;
+      background-repeat: no-repeat; 
+      background-size: 100%;
+      background-position: center;
+     } 
   } 
 
   .main__title1 {
